@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [cd_searchFunctionality]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="cd_core.testListeners"/>
+  </listeners>
+  <test parallel="none" name="searchandfilter(failed)">
+    <classes>
+      <class name="cd_testExecution.searchFunctionality">
+        <methods>
+          <include name="searchTestCases"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterEachTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- cd_testExecution.searchFunctionality -->
+    </classes>
+  </test> <!-- searchandfilter(failed) -->
+</suite> <!-- Failed suite [cd_searchFunctionality] -->

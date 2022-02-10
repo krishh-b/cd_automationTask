@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="cd_searchFunctionality">
+	<listeners>
+		<listener class-name="cd_core.testListeners"></listener>
+	</listeners>
+	<test thread-count="2" name="searchandfilter">
+		<classes>
+			<class name="cd_testExecution.searchFunctionality" />
+		</classes>
+	</test> <!-- searchandfilter -->
+</suite> <!-- cd_searchFunctionality -->

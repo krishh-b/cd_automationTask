@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T04:49:53Z" name="cd_searchFunctionality" finished-at="2022-02-10T04:52:06Z" duration-ms="133280">
+    <groups>
+    </groups>
+    <test started-at="2022-02-10T04:49:53Z" name="searchandfilter" finished-at="2022-02-10T04:52:06Z" duration-ms="133280">
+      <class name="cd_testExecution.searchFunctionality">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:cd_testExecution.searchFunctionality@1e0b4072]" started-at="2022-02-10T10:19:53Z" name="beforeTest" finished-at="2022-02-10T10:19:53Z" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestContext)[pri:0, instance:cd_testExecution.searchFunctionality@1e0b4072]" started-at="2022-02-10T10:19:53Z" name="beforeEachTest" finished-at="2022-02-10T10:20:41Z" duration-ms="48309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@420cd102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="searchTestCases()[pri:0, instance:cd_testExecution.searchFunctionality@1e0b4072]" started-at="2022-02-10T10:20:41Z" name="searchTestCases" description="Search Test Case 1" finished-at="2022-02-10T10:22:03Z" duration-ms="81439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestCases -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:cd_testExecution.searchFunctionality@1e0b4072]" started-at="2022-02-10T10:22:06Z" name="afterEachTest" finished-at="2022-02-10T10:22:06Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:cd_testExecution.searchFunctionality@1e0b4072]" started-at="2022-02-10T10:22:06Z" name="afterTest" finished-at="2022-02-10T10:22:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cd_testExecution.searchFunctionality -->
+    </test> <!-- searchandfilter -->
+  </suite> <!-- cd_searchFunctionality -->
+</testng-results>
